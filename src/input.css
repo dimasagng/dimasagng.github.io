@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* Default Selection (Light Mode) */
+  ::selection {
+    @apply bg-primary text-white;
+  }
+
+  /* Dark Mode Selection */
+  .dark ::selection {
+    @apply bg-primary text-dark;
+  }
+}
+
 body {
   font-family: "Inter", sans-serif;
 }

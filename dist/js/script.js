@@ -106,7 +106,7 @@ if (contactForm && submitBtn) {
             confirmButtonText: "Tutup",
             confirmButtonColor: "#d33",
           });
-        }
+        },
       )
       .finally(function () {
         // 6. Kembalikan tombol seperti semula
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
   const txtElement = document.getElementById("typewriter");
   // Array kata-kata yang ingin dianimasikan
-  const words = ["IT Networking Enthusiast", "Music Producer"];
+  const words = ["IT Networking Enthusiast", "Music Writer"];
   const wait = 2000; // Waktu tunggu sebelum menghapus (2 detik)
 
   if (txtElement) {
